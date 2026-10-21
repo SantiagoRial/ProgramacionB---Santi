@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="771d19d4-4a84-45c1-889f-3139cefaa42b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/src/main/java/controller/RacerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/src/main/java/controller/RacerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/src/main/java/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/src/main/java/model/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/src/main/java/model/PlayerForRanking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/src/main/java/model/PlayerForRanking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/src/main/java/model/PlayerForRankingExpert.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/src/main/java/model/PlayerForRankingExpert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/src/main/java/model/PlayerForRankingRookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/src/main/java/model/PlayerForRankingRookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/controller/RacerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/controller/RacerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/dataaccess/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/dataaccess/DBManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/model/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/model/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/model/PlayerForRanking.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/model/PlayerForRanking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/model/PlayerForRankingExpert.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/model/PlayerForRankingExpert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/model/PlayerForRankingRookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/model/PlayerForRankingRookie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/run/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/run/App$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/run/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/run/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/view/RankingWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/view/RankingWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/view/RankingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Parcial8RacerGamerBD/target/classes/view/RankingWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/controlador/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/controlador/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/inicio/ClaseInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/inicio/ClaseInicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/Entrega.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/Entrega.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/HojaRuta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/HojaRuta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/HojaRutaBicicleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/HojaRutaBicicleta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/HojaRutaCamion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/HojaRutaCamion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/HojaRutaRefrigerada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/HojaRutaRefrigerada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/Movil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/Movil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/TipoMovil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/Zonas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri2024MensajeriayReparto/src/modelo/Zonas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/controlador/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/controlador/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/model/RunEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/model/RunEmpresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/modeloclases/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/modeloclases/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/modeloclases/Compartimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/modeloclases/Compartimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/modeloclases/Estanteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/modeloclases/Estanteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/modeloclases/Refrigerado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialPrimerCuatri7/Parcial7Almacenamientoylogistica/src/modeloclases/Refrigerado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/src/main/java/controller/ClinicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/src/main/java/controller/ClinicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/src/main/java/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/src/main/java/model/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/META-INF/maven/clinicdb/programacionb/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/META-INF/maven/clinicdb/programacionb/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/controller/ClinicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/controller/ClinicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/dataaccess/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/dataaccess/DBManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/MedicalAssurance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/MedicalAssurance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/Medicine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/Medicine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/MedicinePrescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/MedicinePrescription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/StudyPrescripion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/StudyPrescripion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/prescriptions/Prescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/model/prescriptions/Prescription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/run/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/run/App$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/run/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/run/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/view/PrescriptionsWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/view/PrescriptionsWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/view/PrescriptionsWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatriClinicaBD/target/classes/view/PrescriptionsWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/DAO/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/DAO/DBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/DAO/DeportesDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/DAO/DeportesDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/DAO/SociosDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/DAO/SociosDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/META-INF/maven/com.example/demoCRUD/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/META-INF/maven/com.example/demoCRUD/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/com/parcial2/poo/Parcial2POO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/com/parcial2/poo/Parcial2POO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/model/Deporte.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/model/Deporte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/model/Socio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/model/Socio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/model/SocioVitalicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/model/SocioVitalicio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ABMBaseForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ABMBaseForm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ABMBaseForm$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ABMBaseForm$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ABMBaseForm$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ABMBaseForm$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ABMBaseForm$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ABMBaseForm$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ABMBaseForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ABMBaseForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/DeportesForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/DeportesForm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/DeportesForm$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/DeportesForm$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/DeportesForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/DeportesForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ListadoCuotasForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ListadoCuotasForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/Main$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/Main$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/Main$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/Main$1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/Main$1$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/Main$1$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/SociosForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/SociosForm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/SociosForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/SociosForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ViewUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ParcialSegundoCuatrimestre2024Oncedesunidos/target/classes/view/ViewUtils.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SantiagoRial"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LucasSaravi-cpu/ProgramacionB.git",
+    "accountId": "53b38040-23d4-4f55-9f45-f90e0c47b686"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="34qlSSRLCs6GYt379lWTDHl9na0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="771d19d4-4a84-45c1-889f-3139cefaa42b" name="Changes" comment="" />
+      <created>1761948987070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761948987070</updated>
+    </task>
+    <servers />
+  </component>
+</project>
