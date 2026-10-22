@@ -2,6 +2,7 @@ package Guia_Colecciones_Herencia_Polimorfismo_Composicion.ej3;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Torneo {
     private String nombre;
@@ -26,15 +27,34 @@ public class Torneo {
         getEquipos().add(e);
     }
 
-    public void leeArchTxt(){
+    public void listaEquipos(){
+        for (Equipo e: getEquipos()){
+            System.out.println("Equipo: " + e.getNombreEquipo());
+            System.out.println("--> Jugadores: ");
 
+            for (Jugador j : e.getJugadores())
+                System.out.println("    --> Nombre: " + j.getNombre() + " - Edad: " + j.getEdad() + " - Ranking: Nº" + j.getRanking());
+
+            System.out.println();
+        }
+    }
+
+    public void listaEquiposPorRanking(){
+        for (Equipo e: getEquipos()){
+            int rank = e.getRankingEquipo();
+
+
+        }
+    }
+
+    public void leeArchTxt(){
         try {
             BufferedReader br = new BufferedReader(new FileReader("TorneoTenis.txt"));
             String linea;
 
             String nombreTorneo = br.readLine().trim();
 
-            Torneo torneo = new Torneo(nombreTorneo);
+            Torneo t = new Torneo(nombreTorneo);
 
             while ((linea = br.readLine()) != null){
                 String[] lineaEquipo = linea.split(";");
@@ -52,9 +72,9 @@ public class Torneo {
                     jug.add(jugador);
                 }
 
-                Equipo eq = new Equipo(nomb);
+                Equipo eq = new Equipo(nomb, jug);
 
-                torneo.agregar(eq);
+                t.agregar(eq);
             }
         } catch (FileNotFoundException e) {
             System.err.println("Archivo - TorneoTenis.txt - no encontrado");
