@@ -3,63 +3,73 @@ package Guia_Colecciones_Herencia_Polimorfismo_Composicion.ej3;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class Torneo {
     private String nombre;
-    private ArrayList<Equipo> equipos;
+    private List<Equipo> equipos;
 
-    public Torneo(String nombre) {
-        this.nombre = nombre;
+    public Torneo() {
+        this.equipos = new ArrayList<>();
     }
 
     public String getNombre() {return nombre;}
     public void setNombre(String nombre) {this.nombre = nombre;}
 
-    public ArrayList<Equipo> getEquipos() {
-        return equipos;
-    }
-
+    public List<Equipo> getEquipos() {return equipos;}
     public void setEquipos(ArrayList<Equipo> equipos) {
         this.equipos = equipos;
     }
-
     public void agregar (Equipo e){
         getEquipos().add(e);
     }
 
     public void listaEquipos(){
+        System.out.println("------------ EQUIPOS E INTEGRANTES ------------");
         for (Equipo e: getEquipos()){
             System.out.println("Equipo: " + e.getNombreEquipo());
-            System.out.println("--> Jugadores: ");
+            System.out.println("--> Jugadores ");
 
             for (Jugador j : e.getJugadores())
-                System.out.println("    --> Nombre: " + j.getNombre() + " - Edad: " + j.getEdad() + " - Ranking: Nº" + j.getRanking());
+                System.out.println("   --> Nombre: " + j.getNombre() + " - Edad: " + j.getEdad() + " - Ranking: Nº" + j.getRanking());
 
             System.out.println();
         }
     }
 
     public void listaEquiposPorRanking(){
-        for (Equipo e: getEquipos()){
-            int rank = e.getRankingEquipo();
+        System.out.println("-------- EQUIPOS ORDENADOS POR RANKING --------");
+        List<Equipo> equiposOrdenados = new ArrayList<>(getEquipos());
+        Collections.sort(equiposOrdenados);
 
+        for (int i = 0; i < equiposOrdenados.size(); i++) {
+            System.out.println("Pos. Nº" + (i + 1) + " - " + equiposOrdenados.get(i).getNombreEquipo());
+        }
+        System.out.println();
+    }
 
+    public void jugadoresOrdenadosPorRanking(){
+        System.out.println("------- JUGADORES ORDENADOS POR RANKING -------");
+        List<Jugador> allPlayers = new ArrayList<>();
+
+        for (Equipo e : getEquipos()){
+            allPlayers.addAll(e.getJugadores());
+        }
+
+        Collections.sort(allPlayers);
+        for (Jugador j : allPlayers){
+            System.out.println(j);
         }
     }
 
-    public void leeArchTxt(){
-        try {
-            BufferedReader br = new BufferedReader(new FileReader("TorneoTenis.txt"));
+    public void leeArchTxt(String arch){
+        try (BufferedReader br = new BufferedReader(new FileReader(arch))){
             String linea;
-
-            String nombreTorneo = br.readLine().trim();
-
-            Torneo t = new Torneo(nombreTorneo);
+            setNombre(br.readLine().trim());
 
             while ((linea = br.readLine()) != null){
                 String[] lineaEquipo = linea.split(";");
-                String nomb =  lineaEquipo[0].trim();
-                ArrayList<Jugador> jug = new ArrayList<>();
+                Equipo nuevoEquipo =  new Equipo(lineaEquipo[0].trim());
 
                 for (int i = 1; i < lineaEquipo.length; i++) {
                     String[] lineaJug = lineaEquipo[i].split(",");
@@ -68,13 +78,9 @@ public class Torneo {
                     int edad = Integer.parseInt(lineaJug[1].trim());
                     int ranking = Integer.parseInt(lineaJug[2].trim());
 
-                    Jugador jugador = new Jugador(nombJug, edad, ranking);
-                    jug.add(jugador);
+                    nuevoEquipo.agregarJugador(new Jugador(nombJug, edad, ranking));
                 }
-
-                Equipo eq = new Equipo(nomb, jug);
-
-                t.agregar(eq);
+                getEquipos().add(nuevoEquipo);
             }
         } catch (FileNotFoundException e) {
             System.err.println("Archivo - TorneoTenis.txt - no encontrado");
@@ -84,6 +90,11 @@ public class Torneo {
     }
 
     public static void main(String[] args) {
+        Torneo t = new Torneo();
 
+        t.leeArchTxt("TorneoTenis.txt");
+        t.listaEquipos();
+        t.listaEquiposPorRanking();
+        t.jugadoresOrdenadosPorRanking();
     }
 }
