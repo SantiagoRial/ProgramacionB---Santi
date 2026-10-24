@@ -30,8 +30,9 @@ public class Atleta {
         Scanner sc = new Scanner(System.in);
         int i = 0;
         String op;
+        atletas = new Atleta[4];
 
-        while (termina) {
+        while (!termina && i < atletas.length) {
             System.out.print("Ingrese el nombre del atleta: ");
             String nomb = sc.nextLine();
 
@@ -39,31 +40,43 @@ public class Atleta {
             String cat = sc.nextLine();
 
             atletas[i] = new Atleta(nomb, cat);
+            i++;
 
             do {
-                System.out.println("Desea agregar otro atleta?");
-                System.out.println("S - SI");
-                System.out.println("N - NO");
-                op = sc.nextLine();
-            } while (op.equals("SI") || op.equals("NO"));
+                System.out.println("Desea agregar otro atleta? (SI/NO)");
+                op = sc.nextLine().toUpperCase();
+            } while (!op.equals("SI") && !op.equals("NO"));
 
             if (op.equals("NO"))
                 termina = true;
-            else
-                i++;
         }
     }
 
-    public void verDatos(){
-        for (Atleta a : atletas)
-            System.out.println("Nombre del atleta: " + a.getNombre() + " - Categoria: " + a.getCategoria());
-
+    public void verDatos() {
+        for (Atleta a : atletas){
+            if (a != null)
+                System.out.println("Nombre del atleta: " + a.getNombre() + " - Categoria: " + a.getCategoria());
+        }
     }
+
 
     public static void main(String[] args) {
         Atleta a = new Atleta();
 
-        a.cargarDatos();
-        a.verDatos();
+        //a.cargarDatos();
+        //a.verDatos();
+
+        Nadador[] nadadores = new Nadador[4];
+
+        nadadores[0] = new Triatleta("Alberto", "Elite");
+        nadadores[1] = new Delfin("Skeepy", "Mamíferos");
+        nadadores[2] = new Triatleta("Laura", "Amateur");
+        nadadores[3] = new Delfin("Flipper", "Mamíferos");
+
+        for (Nadador n : nadadores) {
+            if (n != null) {
+                System.out.println(n.nadar());
+            }
+        }
     }
 }

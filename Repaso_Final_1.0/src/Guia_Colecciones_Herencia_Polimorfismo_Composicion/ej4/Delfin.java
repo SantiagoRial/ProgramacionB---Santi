@@ -5,9 +5,8 @@ public class Delfin extends Animal implements Nadador {
         super(especie, grupo);
     }
 
-
     @Override
-    public void nadar() {
-
+    public String nadar() {
+        return (getEspecie() + ", Delfin nadando");
     }
 }

@@ -10,5 +10,7 @@ public class Triatleta extends Atleta implements Nadador, Ciclista {
     public void andar() {}
 
     @Override
-    public void nadar() {}
+    public String nadar() {
+        return (getNombre() + ", Triatleta nadando");
+    }
 }
