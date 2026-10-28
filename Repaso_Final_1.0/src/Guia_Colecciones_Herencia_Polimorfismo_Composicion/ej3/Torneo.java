@@ -76,6 +76,9 @@ public class Torneo {
     }
 
     public void leeArchTxt(String arch){
+        int cantJug = 0; // ej 6
+        int cantInv = 0; // ej 6
+
         try (BufferedReader br = new BufferedReader(new FileReader(arch))){
             String linea;
             setNombre(br.readLine().trim());
@@ -88,13 +91,19 @@ public class Torneo {
                     String[] lineaJug = lineaEquipo[i].split(",");
 
                     String nombJug = lineaJug[0].trim();
-                    int edad = Integer.parseInt(lineaJug[1].trim());
-                    int ranking = Integer.parseInt(lineaJug[2].trim());
+                    int ranking = Integer.parseInt(lineaJug[1].trim());
+                    int edad = Integer.parseInt(lineaJug[2].trim());
+                    cantJug++; // ej 6
 
                     try {
-                        nuevoEquipo.agregarJugador(new Jugador(nombJug, edad, ranking));
+                        nuevoEquipo.agregarJugador(new Jugador(nombJug, ranking, edad));
                     }catch (EdadInvalida ei){
                         logger.warning(nuevoEquipo.getNombreEquipo() + " - " + ei.getMessage());
+                        cantInv++; // ej 6
+
+                        try { // ej 6
+                            nuevoEquipo.agregarJugador(new Jugador(nombJug, ranking , -1)); // ej 6
+                        }catch (EdadInvalida e){} // ej 6
                     }
                 }
                 getEquipos().add(nuevoEquipo);
@@ -103,6 +112,10 @@ public class Torneo {
             System.err.println("Archivo - TorneoTenis.txt - no encontrado");
         }catch (IOException e){
             System.err.println("Error al leer archivo TorneoTenis.txt");
+        }
+        finally { // ej 6
+            double porcentaje = (cantInv*100)/cantJug; // ej 6
+            System.out.println("  --> ESTADÍSTICA: " + porcentaje + "% de los jugadores fueron ingresados con una edad invalida."); // ej 6
         }
     }
 

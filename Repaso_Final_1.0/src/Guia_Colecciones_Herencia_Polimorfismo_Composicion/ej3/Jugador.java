@@ -7,9 +7,9 @@ public class Jugador implements Comparable<Jugador> {
     private Equipo equipo; // Inciso c
 
     public Jugador(String nombre, int ranking, int edad) throws EdadInvalida{
-        if (edad < 16 || edad > 80)
+        if ((edad != -1) && edad < 16 || edad > 80) {
             throw new EdadInvalida("Edad invalida (" + edad + ") para el jugador " + nombre);
-
+        }
         this.nombre = nombre;
         this.ranking = ranking;
         this.edad = edad;
