@@ -11,6 +11,6 @@ public class PracticaExcepciones {
     }
 
     public static void main(String[] args) {
-        System.out.println("El resultado de la division es: " + dividir(10, 0));
+        System.out.println("El resultado de la division entre ambos numeros ingresados es: " + dividir(10, 0));
     }
 }
