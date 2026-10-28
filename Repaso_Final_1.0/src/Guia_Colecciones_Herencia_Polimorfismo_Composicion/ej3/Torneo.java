@@ -4,13 +4,26 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public class Torneo {
     private String nombre;
     private List<Equipo> equipos;
+    private static final Logger logger = Logger.getLogger(Torneo.class.getName());
 
     public Torneo() {
         this.equipos = new ArrayList<>();
+
+        try {
+            FileHandler fh = new FileHandler("edades_invalidas.log", false);
+            fh.setFormatter(new SimpleFormatter());
+            logger.addHandler(fh);
+            logger.setUseParentHandlers(false);
+        }catch (Exception e){
+            System.err.println("Error al configurar el log.");
+        }
     }
 
     public String getNombre() {return nombre;}
@@ -78,7 +91,11 @@ public class Torneo {
                     int edad = Integer.parseInt(lineaJug[1].trim());
                     int ranking = Integer.parseInt(lineaJug[2].trim());
 
-                    nuevoEquipo.agregarJugador(new Jugador(nombJug, edad, ranking));
+                    try {
+                        nuevoEquipo.agregarJugador(new Jugador(nombJug, edad, ranking));
+                    }catch (EdadInvalida ei){
+                        logger.warning(nuevoEquipo.getNombreEquipo() + " - " + ei.getMessage());
+                    }
                 }
                 getEquipos().add(nuevoEquipo);
             }
