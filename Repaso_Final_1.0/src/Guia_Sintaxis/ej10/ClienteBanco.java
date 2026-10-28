@@ -76,12 +76,12 @@ public class ClienteBanco {
             op = scanner.nextInt();
         }
     }
-}
-    //public static void main(String[] args) {
-      //  ClienteBanco cliente1 = new ClienteBanco("Santiago", 0, 790306);
-        //ClienteBanco cliente2 = new ClienteBanco("Olivia", 22730, 232323);
-        //ClienteBanco cliente3 = new ClienteBanco("Rodrigo", 12130, 323232);
 
-        //cliente1.realizaOperaciones();
-    //}
-//}
+    public static void main(String[] args) {
+        ClienteBanco cliente1 = new ClienteBanco("Santiago", 0, 790306);
+        ClienteBanco cliente2 = new ClienteBanco("Olivia", 22730, 232323);
+        ClienteBanco cliente3 = new ClienteBanco("Rodrigo", 12130, 323232);
+
+        cliente1.realizaOperaciones();
+    }
+}
