@@ -7,7 +7,6 @@ public class ClienteBanco {
     private String nombre;
     private double saldo;
     private int pin;
-    private BancoIU iu;
 
     public ClienteBanco(String nombre, double saldo, int pin) {
         this.nombre = nombre;
@@ -22,11 +21,26 @@ public class ClienteBanco {
     public int getPin() {return pin;}
     public void setPin(int pin) {this.pin = pin;}
 
-    public static void main(String[] args) {
-        ClienteBanco cliente1 = new ClienteBanco("Santiago", 0, 790306);
-        ClienteBanco cliente2 = new ClienteBanco("Olivia", 22730, 232323);
-        ClienteBanco cliente3 = new ClienteBanco("Rodrigo", 12130, 323232);
+    public void deposita(double dep){
+        setSaldo(getSaldo() + dep);
+    }
 
+    public void retirar(double ret) throws SaldoInsuficiente{
+        if ((getSaldo() - ret) < 0){
+            throw new SaldoInsuficiente("Saldo insuficiente. Ingrese un valor válido. Saldo actual: $" + getSaldo());
+        }
+        else
+            setSaldo(getSaldo() - ret);
+    }
 
+    public boolean verificarPin(int p) throws PINErroneo {
+        boolean esCorrecto = false;
+
+        if (getPin() != p)
+            throw new PINErroneo("El PIN ingresado es INCORRECTO. Intente nuevamente.");
+        else
+            esCorrecto = true;
+
+        return (esCorrecto);
     }
 }
